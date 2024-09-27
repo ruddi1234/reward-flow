@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0; /* Equivalent to py-10 */
+  }
+  
+  .logo-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem; 
+  }
+  
+  .logo {
+    width: 3rem; /* Equivalent to w-12 */
+    height: auto;
+  }
+  .title {
+    font-size: 3rem; /* Equivalent to text-3xl */
+    font-weight: bold;
+    color: #333333;
+  }

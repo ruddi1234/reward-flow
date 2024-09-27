@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; 
+}
+.main{
+    overflow: hidden;
+    padding: 0%;
+}
+.qr {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #757575;
+    line-height: 0; 
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.qr span {
+    position: relative;
+    background-color: #fff; 
+    padding: 0 10px; 
+    font-size: 30px; 
+    font-weight: bold;
+    color: #757575;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.qrimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 400px;
+}
+.qrimage img {
+    max-width: 55%;
+    max-height: 40%;
+    object-fit: contain;
+}
